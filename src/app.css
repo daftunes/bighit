@@ -1,0 +1,43 @@
+
+@font-face {
+  font-family: "Inconsolata";
+  src: url("./assets/inconsolata-regular-webfont.woff2") format("woff2"),
+    url("./assets/inconsolata-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --width: 30rem;
+  --goodluck-font-size:3rem;
+  --result-font-size:2rem;
+  --main-color: #e3eb9b;
+  --accent-color: #f8e7ee;
+  --accent-dimmed-color: #FAEFF3;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inconsolata", monospace;
+  color: #6a6a6a;
+
+
+  background-color: #000;
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+  :root {
+
+  --width: 15rem;
+  --goodluck-font-size:2rem;
+  --result-font-size:1.5rem;
+
+  }
+}
