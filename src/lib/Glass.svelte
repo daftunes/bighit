@@ -29,7 +29,7 @@
     height: 20px;
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.18);
-    animation: spin 5s linear infinite;
+    animation: spin 10s linear infinite;
     bottom: -150px;
     left: var(--left);
     width: var(--size);
